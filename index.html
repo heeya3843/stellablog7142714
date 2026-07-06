@@ -296,26 +296,38 @@ footer a{color:var(--forest);font-weight:600}
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="eyebrow">Category</span>
-      <h2>이 블로그의 세 가지 이야기</h2>
+      <h2>이 블로그의 다섯 가지 이야기</h2>
     </div>
     <div class="cat-grid">
       <article class="cat reveal">
         <div class="cat-num">하나</div>
         <h3>AI 강의 이야기</h3>
-        <p>공공기관·공기업 실무자를 만나는 강의 현장의 기록. ChatGPT, Claude, NotebookLM부터 문서 자동화까지, 실무에 바로 쓰는 AI 활용법을 나눕니다.</p>
+        <p>공공기관·공기업·시니어까지, 강의 현장에서 만난 사람들과 배움의 순간을 기록합니다. 실무에 바로 쓰는 AI 활용법을 함께 나눕니다.</p>
         <span class="cat-tag">#공공기관AI교육 #강의후기</span>
       </article>
       <article class="cat reveal">
         <div class="cat-num">둘</div>
+        <h3>AI 관련</h3>
+        <p>ChatGPT, Claude, NotebookLM 같은 AI 도구의 새로운 소식과 기능, 실무에 바로 적용하는 활용 팁을 정리합니다.</p>
+        <span class="cat-tag">#AI소식 #AI활용팁</span>
+      </article>
+      <article class="cat reveal">
+        <div class="cat-num">셋</div>
         <h3>공무원 일상</h3>
         <p>보건소 공무원의 하루. 현장의 다양한 업무 이야기와 함께, AI로 공문과 보고서를 자동화하는 공무원의 생존기를 담습니다.</p>
         <span class="cat-tag">#보건소일상 #업무자동화</span>
       </article>
       <article class="cat reveal">
-        <div class="cat-num">셋</div>
+        <div class="cat-num">넷</div>
         <h3>진로 멘토링</h3>
         <p>꿈파쇼 진로멘토단 멘토강사로 청소년을 만납니다. 방사선사에서 공무원으로, 다시 AI 강사로 — 진로는 한 번에 정해지지 않는다는 이야기를 전합니다.</p>
         <span class="cat-tag">#꿈파쇼 #청소년진로</span>
+      </article>
+      <article class="cat reveal">
+        <div class="cat-num">다섯</div>
+        <h3>건강과 피부 이야기</h3>
+        <p>방사선사 10년, 보건소 10년의 경험에서 얻은 건강 상식과 피부 관리 이야기를 쉽고 따뜻하게 풀어냅니다.</p>
+        <span class="cat-tag">#건강상식 #피부관리</span>
       </article>
     </div>
   </div>
@@ -330,8 +342,10 @@ footer a{color:var(--forest);font-weight:600}
     <div class="filter-tabs reveal" role="tablist" aria-label="카테고리 필터">
       <button class="ftab on" data-cat="전체">전체</button>
       <button class="ftab" data-cat="AI 강의">AI 강의</button>
+      <button class="ftab" data-cat="AI 관련">AI 관련</button>
       <button class="ftab" data-cat="공무원 일상">공무원 일상</button>
       <button class="ftab" data-cat="진로 멘토링">진로 멘토링</button>
+      <button class="ftab" data-cat="건강과 피부 이야기">건강과 피부 이야기</button>
     </div>
     <div class="posts reveal" id="postList">
       <p class="post-loading">글을 불러오는 중입니다…</p>
@@ -371,7 +385,9 @@ footer a{color:var(--forest);font-weight:600}
           <select id="wCat">
             <option>공무원 일상</option>
             <option>AI 강의</option>
+            <option>AI 관련</option>
             <option>진로 멘토링</option>
+            <option>건강과 피부 이야기</option>
           </select>
         </label>
         <label>이모지
